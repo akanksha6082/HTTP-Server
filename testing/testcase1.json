@@ -1,0 +1,31 @@
+{
+	"GET"     : [ "http://localhost:1200/image.png", 
+				  "http://localhost:1200/image.jpeg", 
+				  "http://localhost:1200/sample.gif",
+				  "http://localhost:1200/sample.txt"
+				    
+				],
+
+    "POST"    : {
+			"url": "http://localhost:1200/filemultipart.html",
+			"files" : [
+			 	"http://localhost:1200/post_image.png",
+				"http://localhost:1200/post_text.txt"
+			],
+			"data" : {
+				"uname" : "akanksha",
+				"email" : "shahakanksha286@gmail.com",
+				"psw"   : "TimeSquare"
+			}		
+		},
+    "PUT"     : [ 
+					"http://localhost:1200/put_image.jpeg", 
+					"http://localhost:1200/put_text.txt" 
+				],
+
+    "DELETE"  : [ 
+					"http://localhost:1200/sample.txt"
+				],
+				
+    "HEAD"    : "http://localhost:1200/sample.txt"
+}

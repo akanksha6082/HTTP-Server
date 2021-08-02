@@ -1,0 +1,8 @@
+
+How peer-to-peer networks work??
+
+Typically, when a user downloads a file, the user opens a web browser, visits the appropriate website and downloads the file. In this case, the website acts as a server and the user’s computer acts as a client that receives the data. This can be compared to a one-way street where the downloaded file is transferred from point A, the website, to point B, the user’s computer.
+
+However, if the user downloads the same file through a peer-to-peer network, the download is handled differently. In this case, the user has to install peer-to-peer software on his computer, which creates a virtual network of peer-to-peer application users. Then when the user downloads a file, it is received in bits that come from various computers in the network that already have that file.
+
+Simultaneously, the data is also sent from the user’s computer to the computers that ask for it. This situation is similar to a two-way street – the file is like numerous small bits of data that come to the user’s computer but also leave when requested. In fact, the file transfer load is distributed between the peer computers.

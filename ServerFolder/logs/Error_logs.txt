@@ -1,0 +1,10 @@
+[ client 127.0.0.1:55702 ]         [ Thu, 12 Nov 2020 09:35:14 GMT ]       [ error ]      [ PUT /sample1.png HTTP/1.1 ]                415       Unsupported Media Type
+[ client 127.0.0.1:55708 ]         [ Thu, 12 Nov 2020 09:35:29 GMT ]       [ error ]      [ GET /sample1.png HTTP/1.1 ]                404       Not Found
+[ client 127.0.0.1:55712 ]         [ Thu, 12 Nov 2020 09:35:38 GMT ]       [ error ]      [ GET /sample.png HTTP/1.1 ]                 404       Not Found
+[ client 127.0.0.1:55738 ]         [ Thu, 12 Nov 2020 09:36:43 GMT ]       [ error ]      [ GET /image1.png HTTP/1.1 ]                 412       Pre-condition Failed
+[ client 127.0.0.1:55750 ]         [ Thu, 12 Nov 2020 09:38:11 GMT ]       [ error ]      [ GET /image1.png HTTP/1.1 ]                 500       Internal Server Error
+[ client 127.0.0.1:55788 ]         [ Thu, 12 Nov 2020 09:42:26 GMT ]       [ error ]      [ DELETE /sample.txt HTTP/1.1 ]              401       Unauthorized
+[ client 127.0.0.1:55806 ]         [ Thu, 12 Nov 2020 09:42:28 GMT ]       [ error ]      [ DELETE /index.html HTTP/1.1 ]              405       Method Not Allowed
+[ client 127.0.0.1:56088 ]         [ Thu, 12 Nov 2020 11:43:30 GMT ]       [ error ]      [ PUT /sub-2 HTTP/1.1 ]                      412       Pre-condition Failed
+[ client 127.0.0.1:56096 ]         [ Thu, 12 Nov 2020 11:44:26 GMT ]       [ error ]      [ GET /sub-2/temp.txt HTTP/1.1 ]             412       Pre-condition Failed
+[ client 127.0.0.1:56108 ]         [ Thu, 12 Nov 2020 11:45:43 GMT ]       [ error ]      [ PUT /sub-2/temp.txt HTTP/1.1 ]             415       Unsupported Media Type

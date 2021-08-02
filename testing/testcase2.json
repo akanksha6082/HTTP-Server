@@ -1,0 +1,31 @@
+{
+    "GET" : {	
+        "directory_listing"  : ["http://localhost:1200/", "http://localhost:1200/sub-2"],
+        "url" : ["http://localhost:1200/conget.jpeg", "http://localhost:1200/image.png"],
+        "if-modified-since" : "Sun, 20 Oct 2020 15:01:05 GMT"
+    },
+
+   "POST" : {
+        "url" : "http://localhost:1200/url_form.html",
+        "data" : {
+            "firstname" : "akanksha",
+            "lastname"  : "shah"			
+        }	
+    },
+    
+    "DELETE": {
+        "auth0": {
+            "type" 	   : "Basic",
+            "username" : "Akanksha",
+            "password" : "Timesquare",
+            "test_url" : "http://localhost:1200/index.html"
+        },		
+        "auth1": {
+            "type" : "Basic",
+            "username" : "anonymous",
+            "password" : "password",
+            "error_test_url" : "http://localhost:1200/",
+            "test_url" : [ "http://localhost:1200/delete_test.webp", "http://localhost:1200/delete_test.txt" ]			
+        }
+    }
+}
